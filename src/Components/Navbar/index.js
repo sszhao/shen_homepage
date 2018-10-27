@@ -24,12 +24,10 @@ class Navbar extends Component {
     return (
         <nav className="menuBar">
         	<div className="logo">
-        		<a href="">logo</a>
+        		<a href="">Shengdong Zhao</a>
         	</div>
         	<div className="menuCon">
-        		<div className="leftMenu">
-	        		<LeftMenu />
-				    </div>
+        		
 				    <div className="rightMenu">
 	        			<RightMenu />
 				    </div>
@@ -43,7 +41,7 @@ class Navbar extends Component {
 		          onClose={this.onClose}
 		          visible={this.state.visible}
 		        >
-		          <LeftMenu />
+		        
 		          <RightMenu />
 		        </Drawer>
 
